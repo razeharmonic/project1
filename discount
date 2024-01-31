@@ -1,0 +1,13 @@
+		//discount
+			cout<<"do you want to enter discount?: y for discount n forback";
+			cin>>discount;
+			
+			if(discount =='y'){
+				cout<<"Enter the discount: ";
+				cin>>discounted;
+dis = totalcost-(totalcost*discounted);
+cout<<"Original Recipe Chicken (KFC) Added to ur order the total is "<<dis<<"\n";
+
+			}else if(discount == 'n'){
+					cout<<"Original Recipe Chicken (KFC) Added to ur order the total is "<<cost<<"\n";
+			}
