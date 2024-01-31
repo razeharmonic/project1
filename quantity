@@ -1,0 +1,4 @@
+	//quantity 
+								cout<<"Enter Quantity: ";
+			                   	cin>>quantity;
+				cost = totalcost * quantity;
