@@ -25,8 +25,7 @@ void drinks(){
     std::cout << "--------------------------------------------" << std::endl;
 }
 void fries(){
-std::cout << "------------- Sides Menu -------------" << std::endl;
-    std::cout << "            French Fries                                  40 pesos" << std::endl;
+std::cout << "------------- French Fries   -------------" << std::endl;
     std::cout << "  - [1] Regular                                   40 pesos" << std::endl;
     std::cout << "  - [2] Cheese                                    50 pesos" << std::endl;
     std::cout << "  - [3] Sour Cream and Onion                      45 pesos" << std::endl;
