@@ -4,25 +4,34 @@ using namespace std;
 
 
 void chicken(){
+std::cout << "------------- Chicken Menu -------------" << std::endl;
 		cout << "		[1]Original Recipe Chicken (KFC)			55pesos" << endl;
-		cout << "		[b]Chicken McNuggets (McDonald's))			85pesos" << endl;
-		cout << "		[c]Chickenjoy (Jollibee))			        75pesos" << endl;
-		cout << "		[d]Spicy Chicken Sandwich (Chick-fil-A))	92pesos" << endl;
+		cout << "		[2]Chicken McNuggets (McDonald's))			85pesos" << endl;
+		cout << "		[3]Chickenjoy (Jollibee))			        75pesos" << endl;
+		cout << "		[4]Spicy Chicken Sandwich (Chick-fil-A))	92pesos" << endl;
 }
 void burger(){
-		cout<<"1.beef burger\n";
-	cout<<"2.egg burger\n";
-	cout<<"3.hotdog with cheese \n";
+ std::cout << "------------- Burger Menu -------------" << std::endl;
+    std::cout << "[2] Classic Burger                            65 pesos" << std::endl;
+    std::cout << "[3] Cheeseburger                              75 pesos" << std::endl;
+    std::cout << "[4] Bacon Deluxe Burger                       85 pesos" << std::endl;
+    std::cout << "------------------------------------------" << std::endl;
 }
 void drinks(){
-	cout<<"1.sprite\n";
-	cout<<"2.coca cola\n";
-	cout<<"3.RC\n";
+	std::cout << "------------- Drinks Menu -------------" << std::endl;
+    std::cout << "[1] Cola                                          25 pesos" << std::endl;
+    std::cout << "[2] Lemonade                                      30 pesos" << std::endl;
+    std::cout << "[3] Iced Tea                                      20 pesos" << std::endl;
+    std::cout << "--------------------------------------------" << std::endl;
 }
 void fries(){
-	cout<<"1.cheese fries\n";
-	cout<<"2.sweet N sour fries\n";
-	cout<<"3.Barbeque fries\n";
+std::cout << "------------- Sides Menu -------------" << std::endl;
+    std::cout << "            French Fries                                  40 pesos" << std::endl;
+    std::cout << "  - [1] Regular                                   40 pesos" << std::endl;
+    std::cout << "  - [2] Cheese                                    50 pesos" << std::endl;
+    std::cout << "  - [3] Sour Cream and Onion                      45 pesos" << std::endl;
+    std::cout << "  - [4] Barbecue                                  45 pesos" << std::endl;
+    std::cout << "------------------------------------------" << std::endl;
 }
 
 
